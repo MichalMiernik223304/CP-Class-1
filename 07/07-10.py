@@ -1,0 +1,5 @@
+file = open("dane.txt", "w")
+file.write("Michal Miernik\n")
+file.write("UEK\n")
+file.write("Computer Science")
+file.close()
