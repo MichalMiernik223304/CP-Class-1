@@ -1,7 +1,7 @@
-film_titles = ["Pitbull\n", "Listy do M\n", "James Bond\n", "Pilsudski\n", "Listy do M2\n"]
+film_titles = ["Pitbull", "Listy do M", "James Bond", "Pilsudski", "Listy do M2"]
 
 file = open("movies.txt", "a")
 for i in range(0, len(film_titles)):
-    file.write(film_titles[i])
+    file.write(film_titles[i] + "\n")
   
 file.close()
